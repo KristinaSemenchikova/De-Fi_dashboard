@@ -1,6 +1,6 @@
 import React from 'react';
-import { CryptoDashboardWidget } from '@/widgets/CryptoDashboardWidget';
+import { Dashboard } from '@/features/dashboard/ui/dashboard/Dashboard';
 
 export default function Home() {
-  return <CryptoDashboardWidget />;
+  return <Dashboard />;
 }
